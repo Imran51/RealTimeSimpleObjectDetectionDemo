@@ -16,6 +16,7 @@
 		7121725729584AF6002ACC45 /* RealTimeObjectDetectionMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121725629584AF6002ACC45 /* RealTimeObjectDetectionMLTests.swift */; };
 		7121726129584AF6002ACC45 /* RealTimeObjectDetectionMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121726029584AF6002ACC45 /* RealTimeObjectDetectionMLUITests.swift */; };
 		7121726329584AF6002ACC45 /* RealTimeObjectDetectionMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121726229584AF6002ACC45 /* RealTimeObjectDetectionMLUITestsLaunchTests.swift */; };
+		712E02C4295851BE00261594 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 712E02C3295851BE00261594 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7121725C29584AF6002ACC45 /* RealTimeObjectDetectionMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeObjectDetectionMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7121726029584AF6002ACC45 /* RealTimeObjectDetectionMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeObjectDetectionMLUITests.swift; sourceTree = "<group>"; };
 		7121726229584AF6002ACC45 /* RealTimeObjectDetectionMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeObjectDetectionMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		712E02C3295851BE00261594 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				7121723F29584AF5002ACC45 /* AppDelegate.swift */,
+				712E02C3295851BE00261594 /* MobileNetV2.mlmodel */,
 				7121724129584AF5002ACC45 /* SceneDelegate.swift */,
 				7121724329584AF5002ACC45 /* ViewController.swift */,
 				7121724529584AF5002ACC45 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				7121724429584AF5002ACC45 /* ViewController.swift in Sources */,
 				7121724029584AF5002ACC45 /* AppDelegate.swift in Sources */,
+				712E02C4295851BE00261594 /* MobileNetV2.mlmodel in Sources */,
 				7121724229584AF5002ACC45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
